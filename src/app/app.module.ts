@@ -6,7 +6,6 @@ import { RouterModule, Routes } from '@angular/router';
 import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
 import { CrisisListComponent } from './crisis-list/crisis-list.component';
-import { HeroListComponent } from './heroes/hero-list/hero-list.component';
 import { PageNotFoundComponent } from './page-not-found/page-not-found.component';
 import { HeroesModule } from './heroes/heroes.module';
 
@@ -14,14 +13,13 @@ import { HeroesModule } from './heroes/heroes.module';
   declarations: [
     AppComponent,
     CrisisListComponent,
-    HeroListComponent,
     PageNotFoundComponent
   ],
   imports: [
     BrowserModule,
     FormsModule,
-    AppRoutingModule,
-    HeroesModule
+    HeroesModule,
+    AppRoutingModule
  ],
   providers: [],
   bootstrap: [AppComponent]
