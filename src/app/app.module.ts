@@ -9,6 +9,7 @@ import { PageNotFoundComponent } from './page-not-found/page-not-found.component
 import { HeroesModule } from './heroes/heroes.module';
 import { CrisisCenterModule } from './crisis-center/crisis-center.module';
 import { ComposeMessageComponent } from './compose-message/compose-message.component';
+import { AdminModule } from './admin/admin.module';
 
 @NgModule({
   declarations: [
@@ -21,6 +22,7 @@ import { ComposeMessageComponent } from './compose-message/compose-message.compo
     FormsModule,
     HeroesModule,
     CrisisCenterModule,
+    AdminModule,
     AppRoutingModule
  ],
   providers: [],
